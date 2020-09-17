@@ -1,0 +1,415 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;800&display=swap");
+
+/* Global attributes */
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+  line-height: 1.5;
+  font-size: 1.1em;
+}
+
+/* img {
+  display: block;
+  width: 100%;
+  height: auto;
+} */
+
+.container {
+  padding: 2em 2em;
+}
+
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 1em 0;
+}
+
+.button {
+  display: inline-block;
+  background: rgb(0, 0, 0);
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5em 1.5em;
+  /* border: 1px solid #333; */
+}
+
+.button:hover {
+  background: #fff;
+  color: rgb(0, 0, 0);
+}
+
+/* Header */
+
+header {
+  align-items: center;
+  justify-content: center;
+}
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.name img {
+  width: 2.5em;
+  align-items: center;
+}
+
+.name h1 {
+  align-items: center;
+  display: inline-block;
+  color: #000;
+  padding: 1em 0;
+}
+
+#nav {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+#nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+#nav ul li {
+  justify-content: space-between;
+  padding: 10px 10px;
+  color: #fff;
+  align-items: center;
+}
+
+#nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+#nav ul li a:hover {
+  font-weight: 800;
+}
+
+/* Showcase */
+
+.bg {
+  background: url("../img/salad-2068220_1280.jpg");
+  /* background-color: rgb(250, 236, 220);  */
+  position: absolute;
+  opacity: 0.4;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  z-index: -1;
+}
+
+#showcase {
+  min-height: 450px;
+}
+
+#showcase h1,
+#showcase p{
+  color: #000; 
+}
+
+#showcase .content-wrap {
+  color: #fff;
+  text-align: center;
+  padding-top: 6em;
+}
+
+#showcase .content-wrap h1 {
+  font-size: 60px;;
+}
+
+#showcase .content-wrap p {
+  padding: 0;
+  font-size: 1.5em; 
+}
+
+#showcase .button {
+  margin-top: 1em;
+}
+
+/* Section A */
+#section-a {
+  background: #fff;
+  color: #333;
+  padding-bottom: 2em;
+}
+
+/* Section B */
+#section-b {
+  padding: 1em 1em;
+}
+
+#section-b ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#section-b li {
+  margin-bottom: 0.5em;
+  background: #fff;
+  color: #333;
+  /* border-radius: 0.5em; */
+}
+
+.card{
+  margin-bottom: 1em; 
+}
+
+.card img {
+  /* border-top-right-radius: 0.5em;
+  border-top-left-radius: 0.5em; */
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.content-card{
+  padding: 1.5em;
+}
+
+/* Testimonials */
+.testimonial-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+#testimonial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container-testimonial {
+  position: relative;
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.container-testimonial .box-testimonial {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 420px;
+  margin: 20px;
+  background: #333;
+}
+
+.container-testimonial .box-testimonial .content-testimonial {
+  padding: 30px;
+  text-align: center;
+}
+
+.container-testimonial
+  .box-testimonial
+  .content-testimonial
+  .quote-testimonial {
+  max-width: 48px;
+}
+
+.container-testimonial .box-testimonial .content-testimonial p {
+  color: #fff;
+  padding: 20px 0;
+}
+
+.container-testimonial .box-testimonial .content-testimonial .user-testimonial {
+  max-width: 72px;
+  border-radius: 50%;
+}
+.container-testimonial .box-testimonial .content-testimonial h3 {
+  color: #61bbf0;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+/* Decoration */
+.decoration{
+  min-height: 300px; 
+  background: url(../img/Recipes.png)
+}
+
+/* Section C */
+#section-c{
+  background: #fff; 
+  color: #333; 
+  padding: 2em; 
+}
+
+/* Runner */
+.runner{
+  min-height: 300px; 
+  background: url(../img/runner.png)
+}
+/* Section D */
+#section-d h2,
+#section-d p{
+  color: #000; 
+}
+#section-d .box{
+  padding: 2em; 
+  color: #fff; 
+}
+
+#section-d .box:first-child{
+  background: #fce8e8;
+  color: #000; 
+}
+
+/* Footer */
+#footer{
+  padding: 2em; 
+  background: #000; 
+  color: #fff; 
+  text-align: center; 
+}
+
+#footer a{
+  color: #2690d4; 
+  text-decoration: none; 
+}
+/* Header Media Queries */
+@media (min-width: 769px) {
+  #nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .name {
+    margin-left: 1em;
+  }
+
+  .links {
+    margin-right: 1em;
+  }
+
+  #nav ul {
+    padding-bottom: 0px;
+  }
+
+  #nav ul li {
+    padding: 10px 25px;
+  }
+}
+
+/* Media Query Grid  */
+@media (max-width: 1050px) {
+  .container-testimonial {
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .container-testimonial .box-testimonial {
+    width: 100%;
+    height: auto;
+    padding: 30px 20px;
+  }
+}
+
+@media (min-width: 700px){
+  .grid{
+    display: grid; 
+    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr; 
+  }
+
+  #section-a .content-p{
+    columns: 2; 
+    column-gap: 2em;
+  }
+
+  #section-a .content-p p{
+    padding-top: 0; 
+  }
+
+  .container,
+  #section-b ul,
+  #section-c h2,
+  #section-c p,
+  .container-testimonials{
+    grid-column: 2/4; 
+  }
+
+  .box,
+  #footer div{
+    grid-column: span 2; 
+  }
+
+  #section-b ul{
+    display: flex; 
+    justify-content: space-between;
+
+  }
+
+  #section-b li{
+    margin: 10px 10px; 
+  }
+
+  #footer div {
+    grid-column: 2/4;
+  }
+  
+
+  }
+}
+
+  
+
+
+
+/* Showcase Media Queries */
+@media only screen and (max-width: 425px){
+  #showcase .content-wrap h1 {
+  padding: 0.5em 0 1em 0;
+  font-size: 3em;
+}
+
+@media only screen and (max-width: 375px){
+  .bg{
+    height: 550px;
+  }
+
+  #showcase .content-wrap h1{
+    padding: 0;  
+  }
+}
+
+/* Section C Media Queries */
+@media only screen and (max-width: 375px){
+  #section-c{
+  padding: 0.8em; 
+}
+}
+
+/* Section D Media Queries */
+@media only screen and (max-width:375px){
+#section-d .box{
+  padding: 0.8em;
+}
+
